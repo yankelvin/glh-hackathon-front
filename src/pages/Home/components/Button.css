@@ -1,0 +1,23 @@
+.button-home{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    padding: 5px 20px;
+    margin-bottom: 3px;
+    width: 270px;
+}
+.button-ajudar{
+   
+    background-color: rgb(124, 109, 168);
+}
+
+.button-receber-ajuda{
+    background-color: rgb(173, 104, 165);
+}
+
+span{
+    color: white;
+    font-size: 15px;
+}

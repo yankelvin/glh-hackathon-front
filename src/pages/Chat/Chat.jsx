@@ -5,7 +5,7 @@ import "./Chat.css";
 import { Baloon } from "./components/Baloon";
 
 export class Chat extends Component {
-  render() {
+  render() { 
     return (
       <div className="container">
         <div className="row bar-header"></div>
