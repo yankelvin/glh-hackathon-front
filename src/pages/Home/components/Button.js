@@ -6,8 +6,12 @@ class Button extends Component{
         return <div className="">
             <button 
                 className={this.props.classe}
-                type={this.props.type}>
-                    <span>{this.props.nomeBotao}</span>
+                type={this.props.type}
+                onClick={this.props.onClick}
+            >
+                <span>
+                    {this.props.nomeBotao}
+                </span>
             </button>
         </div>
     }
